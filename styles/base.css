@@ -1,0 +1,86 @@
+:root{
+    --heading-font:spicy rice,Merriweather,san serif;
+    --heading-background: #0c0351;
+    --heading-color:#fff;
+    
+}
+header,footer{
+    background-color: var(--heading-background);
+}
+h1{
+    font-family: var(--heading-font);
+    font-weight: 100;
+    text-align: center;
+    color: var(--heading-color);
+}
+h3{
+    font-family: "Roboto Flex", sans-serif;
+    color: var(--heading-color);
+    font-weight: 100;
+    text-align: center;
+}
+h4{color:gold;
+text-align: center;}
+
+nav ul{ 
+    list-style-type: none;
+    display: flex;
+}
+nav li{
+flex: 1 1 auto;
+background-color: #333;
+
+    
+}
+nav a{
+    color:var(--heading-color);
+    text-decoration: none;
+    font-family:"Roboto Flex", sans-serif;
+}
+nav a:hover{
+    color:gold;
+    text-decoration: overline;
+    font-family:"Roboto Flex", sans-serif;
+}
+main{display: grid;
+    width: 80%;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    max-width: 1200px;
+    margin: 40px auto;
+}
+.card{
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #ddd;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
+}
+.card article{
+    max-width: 850px;
+    display: flex;
+    
+}
+.card article img{
+    margin:10px;
+    width: 250px;
+    height: 150px;
+    display: block;
+}
+.card h2{ 
+    background-color: #0c0351;
+    color: var(--heading-color);
+    text-align: center;
+    height: 50px;
+    
+}
+.country{
+    margin: 2px;
+    border-top: 1px solid #000;
+    
+}
+.country figure img{
+    width: 150px;
+    height: 150px;
+}
