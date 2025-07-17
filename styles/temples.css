@@ -33,6 +33,9 @@ h1 {
 #menu::before {
 	content: "≡";
 }
+#menu.open::before {
+	content: "X";
+}
 .active::before{
 	content:'💡';
 }
@@ -91,9 +94,6 @@ footer{
 }
 
 
-.show li {
+.open li {
 	display: block;
-}
-#menu.show::after {
-	content: "X";
 }
