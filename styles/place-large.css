@@ -1,10 +1,11 @@
+
 @media(min-width: 760px){
     body {
         font-family: Arial, sans-serif;
         margin: 0;
         padding: 0;
         background-image: url('images/small-hero.jpg');
-        background-size: cover;
+        background-size: 100px;
         background-position: center;
         position: relative;
         height: 100vh;
@@ -14,7 +15,7 @@
         background-color: rgb(58, 49, 49);
         padding: 2rem;
         text-align: center;
-        font-size: 700px;
+        font-size: 100;
     }
     
     .data,.weather {
