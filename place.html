@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A website which displays the Ghana and some important informations with weather conditions">
+    <title>Place</title>
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <script src="scripts/place.js" defer></script>
+    
+</head>
+<body>
+    <header>
+        <div class="head">
+        <h1>Ghana</h1>
+        </div> 
+    </header>
+    <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/large-hero.webp" alt="Farm house" media="(max-width:1000px)">
+                <img src="images/small-hero.webp" alt="Wildlife" media="(max-width:600px)">
+            </picture>
+        </div>
+        <div class="climate">    
+            <section class="data">
+                <h2>Data</h2>
+                <ul>
+                    <li><strong>Area:</strong> 238,533 sq km</li>
+                    <li><strong>Population:</strong> 33,791,018</li>
+                    <li><strong>Capital:</strong> Accra</li>
+                    <li><strong>Languages:</strong> English</li>
+                    <li><strong>Currency:</strong> Ghana Cedis</li>
+                    <li><strong>Time Zone:</strong> UTC+0</li>
+                    <li><strong>Calling Code:</strong> +233</li>
+                    <li><strong>Internet TLD:</strong> .gh</li>
+
+                </ul>
+            </section>
+            <section class="weather">
+                <div class="icons">
+                    <h2>Weather</h2>
+                    <img src="images/weather.webp" alt="weather symbol" width="100px" height="100px">
+                </div>
+                <ul>
+                    <li><strong>Temperature:</strong>  10°C</li>
+                    <li><strong>Condition:</strong> Partly Cloudy</li>
+                    <li><strong>Wind Speed</strong> 3 km/h</li>
+                    <li><strong>Wind Chill:</strong> <span id="windchill"></span></li>
+                    
+                </ul>
+            </section>
+        </div>    
+    </main>
+    <footer>
+        <h3>&copy;<span id="year"></span>🌻Raymond Nayel🌻Ghana</h3>
+        <h4>Last Modified: <span id="full"></span></h4>
+
+    </footer>
+    
+</body>
+</html>

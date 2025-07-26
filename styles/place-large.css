@@ -1,0 +1,51 @@
+
+@media(min-width: 760px){
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-image: url('images/small-hero.jpg');
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        height: 100vh;
+    }
+    
+    header,footer {
+        background-color: rgb(58, 49, 49);
+        padding: 2rem;
+        text-align: center;
+        font-size: 700;
+    }
+    
+    .data,.weather {
+        position: absolute;
+        background: rgba(253, 251, 251, 0.7);
+        padding: 1.5rem;
+        border-radius: 8px;
+        width: 250px;
+        
+        
+        
+    }
+    .data{
+        top:40%;
+        left: 1%;
+    
+    }
+    .weather{
+        top: 70%;
+        right: 1%;
+    
+    }
+    .weather img{
+        width: 35px;
+        height: 45px;
+    }
+    .icons{
+        display: flex;
+        justify-content: space-around;
+    
+    }
+    
+}
