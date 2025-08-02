@@ -95,7 +95,23 @@ const temples = [
     area: 1917,
     imageUrl: 
     "https://churchofjesuschristtemples.org/assets/img/temples/manhattan-new-york-temple/manhattan-new-york-temple-40080-main.jpg"
-  }
+  },
+   {
+    templeName: "Calgary, Alberta",
+    location: "Calgary, Alberta",
+    dedicated: "2012, October, 28",
+    area: 3066,
+    imageUrl:
+    "https://churchofjesuschristtemples.org/assets/img/temples/calgary-alberta-temple/calgary-alberta-temple-13199-main.jpg" 
+   },
+    {
+    templeName: "Brigham City Utah",
+    location: "Brigham City, Utah ",
+    dedicated: "2012, September, 23",
+    area: 3345,
+    imageUrl:
+    "https://churchofjesuschristtemples.org/assets/img/temples/brigham-city-utah-temple/brigham-city-utah-temple-39612-main.jpg"
+ },
 ];
 createTempleCard(temples);
 function createTempleCard(temples){
