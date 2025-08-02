@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Raymond Nayel">
+    <meta name="description" content="A website displaying at 12 temples in a photo album">
+    <title>Temple Album</title>
+    <link rel="stylesheet" href="styles/filtered-temples.css">
+    <link rel="stylesheet" href="styles/filtered-temples-large.css">
+</head>
+<body>
+    <header>
+        <h1>Temple Album</h1>
+        <a id="menu" href="#"></a>
+        <nav>
+  <ul class="navigation">
+    <li><a href="#" class="nav-link active" data-filter="all">Home</a></li>
+    <li><a href="#" class="nav-link" data-filter="old">Old</a></li>
+    <li><a href="#" class="nav-link" data-filter="new">New</a></li>
+    <li><a href="#" class="nav-link" data-filter="large">Large</a></li>
+    <li><a href="#" class="nav-link" data-filter="small">Small</a></li>
+  </ul>
+</nav>
+
+    </header>
+    <main>
+        <h2>Home</h2>
+        <div class="spacer"></div>
+        <div class="grid">
+            
+        </div>
+    </main>
+    <footer>
+        <h3>&copy;<span id="year"></span>🌻Raymond Nayel🌻Ghana</h3>
+        <h4>Last Modified: <span id="full"></span></h4>
+        <script src="scripts/filtered-temples.js" defer></script>
+    </footer>
+</body>
+</html>

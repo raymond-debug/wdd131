@@ -1,0 +1,45 @@
+/* Larger Views ******************************/
+@media (min-width: 740px) {
+	header {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	nav{
+		background-color: #0f354f;
+	}
+	.navigation {
+		display: flex;
+	
+	}
+	.navigation a {
+
+		text-align: center;
+	
+	}
+	.navigation li{
+		display: block;
+		flex: 1 1 100%;
+	}
+	#menu{
+		display: none;
+	}
+    main {
+		display: flex;
+        max-width: 800px;
+    }
+    .spacer{
+        height: 1rem;
+    }
+	.grid{
+        gap: 1.5rem;
+        margin: 1rem auto;
+        padding: top 10px; 
+        font-size: smaller;
+        text-align: center;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+	}
+    
+    
+}
