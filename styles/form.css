@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  
+}
+
+form {
+  max-width: 500px;
+  margin: auto;
+  background: rgb(201, 199, 199);
+  padding: 10px;
+  border-radius: 20px;
+}
+fieldset{
+    text-decoration: solid;
+    border: none;
+    padding: 10px;
+    font-size: smaller;
+}
+
+input[type="date"],input[type="text"],select{
+    width: 300px;
+    height: 25px;
+}
+header,footer{
+    background-color: rgb(72, 73, 74);
+    color: #f4f4f4;
+    text-align: center;
+    max-width: 510px;
+    margin: auto;
+    border-radius: 20px;
+    padding: 10px;
+}
+.container{
+    align-items: center;
+}
+input[type="radio"] {
+	display: none;
+	position: relative;
+	caret-color: rgba(0, 0, 0, 0);
+}
+input[type=checkbox] {
+	margin-left: 10px;
+    width: 25px;
+	height: 25px;
+}
+
+.stars {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: left;
+}
+
+.stars > label {
+	color: gold;
+	width: 30px;
+	height: 30px;
+	font-size: 2rem;
+	margin-left: 5px;
+	display: flex;
+	align-items: center;
+	caret-color: rgba(0, 0, 0, 0); /* remove blinking cursor*/
+}
+
+.stars > label:hover {
+	color: #000;
+}
+
+.stars > label::before {
+	content: "\2606";
+}
+
+.stars input:checked ~ label::before {
+	content: "\2605";
+}
+
