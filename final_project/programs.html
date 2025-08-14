@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Raymond Nayel">
+  <meta name="description" content="A website displaying the various programs we provide and groups them into various categories">
+  <title>Programs — EmpowerHub</title>
+  <link rel="stylesheet" href="styles/project.css">
+  <link rel="stylesheet" href="styles/project-large.css">
+</head>
+<body>
+  <nav class="navbar">
+    <a href="index.html" class="logo">EmpowerSkills Hub</a>
+    <button id="menu" aria-label="Toggle menu"></button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="programs.html">Programs</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main class="container">
+    <h2>Our Programs</h2>
+    <div class="filters">
+      <button onclick="filterPrograms('all')">All</button>
+      <button onclick="filterPrograms('craft')">Craft</button>
+      <button onclick="filterPrograms('culinary')">Culinary</button>
+      <button onclick="filterPrograms('tech')">Tech</button>
+    </div>
+    <div id="programs-container" class="cards"></div>
+  </main>
+
+  <footer class="footer container">
+    <p>&copy; <span id="year"></span> EmpowerSkills Hub. All rights reserved.</p>
+  </footer>
+
+  <script src="scripts/project.js" defer></script>
+</body>
+</html>
